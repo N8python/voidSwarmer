@@ -1,0 +1,25 @@
+{
+    "offense": {
+        "default": "Gives a small buff to bullet damage.",
+        "3": "Rabbits produce less children when killed by your bullets.",
+        "5": "Your bullets pierce through small, swarm enemies without disappearing.",
+        "7": "Whenever your bullet hits a swarm enemy, it has a 25% chance to produce two more bullets at 22.5 degree offsets.",
+        "10": "You now shoot two additional streams of bullets at 15 degree offsets. Additionally, the chance of the ability from Level 7 occurring is increased to 50%.",
+        "incCost": 50
+    },
+    "defense": {
+        "default": "Gives a small buff to player health.",
+        "3": "Homing missiles fired by crabs have trouble following you.",
+        "5": "Swarm enemies are confused when trying to attack you and frequently go in the wrong direction.",
+        "7": "The size of enemy swarms is reduced by 25%. Rabbits produce 50% less children.",
+        "10": "Swarm enemies have a 70% of dying for each second they spend near you.",
+        "incCost": 33
+    },
+    "speed": {
+        "default": "Gives a small buff to player speed.",
+        "3": "Enemy speed slows by a third.",
+        "5": "Larger enemies are temporarily frozen when hit by your bullets.  When a smaller swarm enemy is killed, its nearby comrades are stunned.",
+        "10": "To accommodate your speed, your bullets are homing.",
+        "incCost": 20
+    }
+}

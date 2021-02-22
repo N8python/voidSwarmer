@@ -1,0 +1,66 @@
+.btn {
+    font-family: 'Reggae One', cursive;
+    background-color: darkgrey;
+    min-width: 200px;
+    padding: 16px;
+    font-size: 24px;
+    color: white;
+    border-radius: 16px;
+    transition: 250ms;
+}
+
+h3,
+p,
+label {
+    font-family: 'Reggae One', cursive;
+}
+
+.btn:hover {
+    background-color: lightgrey;
+}
+
+.btn:hover:disabled {
+    color: white;
+}
+
+.btn:active {
+    background-color: grey;
+}
+
+.btn:disabled {
+    color: lightgrey;
+    cursor: not-allowed;
+}
+
+.goodSlider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.goodSlider:hover {
+    opacity: 1;
+}
+
+.goodSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3d3dca;
+    cursor: pointer;
+}
+
+.goodSlider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3d3dca;
+    cursor: pointer;
+}

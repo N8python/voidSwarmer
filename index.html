@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void Swarmer</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+    <script src="matter.js"></script>
+    <script src="matter-wrap.js"></script>
+    <script src="matter-attractors.js"></script>
+    <script src="p5.sound.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div id="main">
+
+    </div>
+    <div id="instructions" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('instructions').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <h3>Instructions:</h3>
+                <p>Press w/up arrow to boost towards the mouse pointer.</p>
+                <p>Click to shoot a stream of bullets.</p>
+                <p>Kill all the enemies to pass a level.</p>
+                <p>Be wary, most enemies can exert gravitational force on you.</p>
+                <p>Buy upgrades in the shop. You can choose between three different traits to upgrade.</p>
+                <p>The first trait you upgrade will be your primary trait. The next, your secondary. And the final one, your tertiary.</p>
+                <p>Primary traits go to level 10, secondary traits go to level 5, and tertiary traits go to level 3.</p>
+                <p>Good luck!</p>
+            </div>
+        </div>
+    </div>
+    <button id="settings" class="btn" style="position:absolute;margin-left:940px;margin-top:0px;min-width: 60px;padding:10px;"><i style="font-size: 32px;" class="fa fa-cog"></i></button>
+    <script src="proxy.js"></script>
+    <script src="rendering.js"></script>
+    <script src="particles.js"></script>
+    <script src="enemy.js"></script>
+    <script src="gravAttractor.js"></script>
+    <script src="crab.js"></script>
+    <script src="anvil.js"></script>
+    <script src="floater.js"></script>
+    <script src="dasher.js"></script>
+    <script src="factory.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
